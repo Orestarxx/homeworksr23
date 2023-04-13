@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const PostBuild = ({post,lift,postsBody}) => {
-    let {id,title,userId,body} = post;
+const PostBuild = ({post,lift}) => {
+    let {id,title} = post;
     return (
         <div>
             <div>{id}</div>

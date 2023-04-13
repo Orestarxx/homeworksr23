@@ -1,0 +1,6 @@
+.holder{
+    display: flex;
+}
+.leftSide, .rightSide{
+    width: 50%;
+}

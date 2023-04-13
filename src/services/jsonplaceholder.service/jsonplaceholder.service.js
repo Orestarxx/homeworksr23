@@ -11,5 +11,8 @@ const getUsers = () =>{
 const getPosts = () =>{
     return axiosInstance.get('/posts')
 };
+const getPostsOfUser = (id) =>{
+    return axiosInstance.get(`/users/`+ id +'/posts')
+}
 
- export {getUsers,getPosts};
+ export {getUsers,getPosts,getPostsOfUser};
